@@ -1,0 +1,14 @@
+{
+        "name": "d2s",
+        "version": "1.0.0",
+        "description": "dockerhub2slack on Node 6.10 LTS",
+        "author": "Gene Liverman <gene@technicalissues.us>",
+        "main": "node_modules/dockerhub2slack/dist/server/index.js",
+        "scripts": {
+                "start": "node node_modules/dockerhub2slack/dist/server/index.js"
+        },
+        "dependencies": {
+                "dockerhub2slack": "^0.0.3"
+        }
+}
+
